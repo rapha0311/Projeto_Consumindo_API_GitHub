@@ -1,10 +1,10 @@
-import { getUser } from './scripts/services/user.js';
-import { getRepositories } from './scripts/services/repositories.js';
+import { getUser } from '../scripts/services/user.js';
+import { getRepositories } from '../scripts/services/repositories.js';
 
 
-import { user } from './scripts/objects/user.js';
-import { screen } from './scripts/objects/screen.js';
-import { getEvents } from './scripts/services/events.js';
+import { user } from '../scripts/objects/user.js';
+import { screen } from '../scripts/objects/screen.js';
+import { getEvents } from '../scripts/services/events.js';
 
 document.getElementById('btn-search').addEventListener("click", () => {
     const userName = document.getElementById('input-search').value
@@ -42,7 +42,7 @@ async function getUserData(userName) {
     const repositoriesResponse = await getRepositories(userName)
     const eventsResponse = await getEvents(userName)
     
-    console.log(repositoriesResponse)
+    
     user.setInfo(userResponse)
     user.setRepositories(repositoriesResponse)
     user.setEvents(eventsResponse)

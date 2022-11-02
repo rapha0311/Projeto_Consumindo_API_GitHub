@@ -7,7 +7,7 @@ const user = {
     following: '',
     events: [],
     repositories: [],
-    type: [],
+    
 
 
     setInfo(gitHubUser) {
@@ -26,8 +26,8 @@ const user = {
 
     setEvents(events) {
         this.events = events
-        this.type = events.type
-    },
+        
+    }
 
 
 }
