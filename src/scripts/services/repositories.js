@@ -1,4 +1,4 @@
-import { baseurl, repositoriesQuantity } from "./src/scripts/variables.js";
+import { baseurl, repositoriesQuantity } from "../variables.js";
 
 async function getRepositories(userName) {
     const response = await fetch(`${baseurl}/${userName}/repos?per_page=${repositoriesQuantity}`)
