@@ -3,7 +3,7 @@
 
 ![Screenshot_1](https://user-images.githubusercontent.com/101482337/199635311-f89fc8fd-0c01-40a8-a9fc-40d8c2761f3b.jpg)
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&?style=plastic&logo=appveyor)
+![Badge under development](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&?style=plastic&logo=appveyor)
 ![GitHub Org's stars](https://img.shields.io/github/stars/rapha0311?style=social)
 
 Project developed for the Advanced JS course (Advanced JS Quest) of the DevQuest course. The Project is the consumption of the GitHub API where we insert
